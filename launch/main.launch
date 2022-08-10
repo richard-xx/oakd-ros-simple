@@ -60,4 +60,6 @@
   <node name="oakd_ros_node" pkg="oakd_ros" type="oakd_ros_node" output="screen"/>
   <!-- launch-prefix="gdb -ex run --> <!--args" -->
 
+  <node type="rviz" name="rviz" pkg="rviz" args="-d $(find oakd_ros)/rviz.rviz" />
+
 </launch>
